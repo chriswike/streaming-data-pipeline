@@ -8,12 +8,21 @@ object ChallengeProblems {
     Returns - String
   */
 
+  def sameString (str: String): String = {
+    str
+  }
+
 
   /*
   2. Write a function that returns "Hello World!" and takes in nothing as a parameter
   Params - None
   Returns - String
    */
+
+  def helloWorld(): String = {
+    val helloWorld = "Hello World!"
+    helloWorld
+  }
 
   /*
   3. Write a function that takes in a list and returns the total size of the list
