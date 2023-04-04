@@ -23,61 +23,62 @@ describe("Challenge One") {
     }
   }
 //
-//  describe("Challenge Three") {
-//    it("Checks if list size is correct"){
-//      val input:List[Int] = List(1,2,3,4,5,6)
-//      val expected = 6
-//      val actual = ChallengeProblems.listSize(input)
-//      assert(expected === actual)
-//    }
-//  }
+  describe("Challenge Three") {
+    it("Checks if list size is correct"){
+      val input:List[Int] = List(1,2,3,4,5,6)
+      val expected = 6
+      val actual = ChallengeProblems.listSize(input)
+      assert(expected === actual)
+    }
+  }
 //
-//  describe("Challenge Four") {
-//    it("Checks if sum is correct"){
-//      val input:Int = 7
-//      val expected = 32
-//      val actual = ChallengeProblems.sumInts(input)
-//      assert(expected === actual)
-//    }
-//  }
-//  describe("Challenge Five") {
-//    it("Uses .map to uppercase everything") {
-//      val input = List("Scala", "is", "dope")
-//      val expected = List("SCALA", "IS", "DOPE")
-//      val actual = ChallengeProblems.upper(input)
-//      assert(expected === actual)
-//    }
-//  }
-//  describe("Challenge Six") {
-//    it("Checks if filtered out values are correct") {
-//      val input = List(0,-3,13,25)
-//      val expected = List(0,13,25)
-//      val actual = ChallengeProblems.filterNegatives(input)
-//      assert(expected === actual)
-//    }
-//    it("Checks if all negatives, then should be an empty list") {
-//      val input = List(-3,-5,-6)
-//      val expected = List()
-//      val actual = ChallengeProblems.filterNegatives(input)
-//      assert(expected === actual)
-//    }
-//  }
-//  describe("Challenge Seven") {
-//    it("Checks if words with car in it are kept") {
-//      val input = List("racecar", "cardinal", "dancer")
-//      val expected = List("racecar", "cardinal")
-//      val actual = ChallengeProblems.containsCar(input)
-//      assert(expected === actual)
-//    }
-//  }
-//  describe("Challenge Eight") {
-//    it("Checks if sum of all ints is correct") {
-//      val input = List(0,23,4,-1,8)
-//      val expected = 34
-//      val actual = ChallengeProblems.sumList(input)
-//      assert(expected === actual)
-//    }
-//  }
+  describe("Challenge Four") {
+    it("Checks if sum is correct"){
+      val input:Int = 7
+      val expected = 32
+      val actual = ChallengeProblems.sumInts(input)
+      assert(expected === actual)
+    }
+  }
+
+  describe("Challenge Five") {
+    it("Uses .map to uppercase everything") {
+      val input = List("Scala", "is", "dope")
+      val expected = List("SCALA", "IS", "DOPE")
+      val actual = ChallengeProblems.upper(input)
+      assert(expected === actual)
+    }
+  }
+  describe("Challenge Six") {
+    it("Checks if filtered out values are correct") {
+      val input = List(0,-3,13,25)
+      val expected = List(0,13,25)
+      val actual = ChallengeProblems.filterNegatives(input)
+      assert(expected === actual)
+    }
+    it("Checks if all negatives, then should be an empty list") {
+      val input = List(-3,-5,-6)
+      val expected = List()
+      val actual = ChallengeProblems.filterNegatives(input)
+      assert(expected === actual)
+    }
+  }
+  describe("Challenge Seven") {
+    it("Checks if words with car in it are kept") {
+      val input = List("racecar", "cardinal", "dancer")
+      val expected = List("racecar", "cardinal")
+      val actual = ChallengeProblems.containsCar(input)
+      assert(expected === actual)
+    }
+  }
+  describe("Challenge Eight") {
+    it("Checks if sum of all ints is correct") {
+      val input = List(0,23,4,-1,8)
+      val expected = 34
+      val actual = ChallengeProblems.sumList(input)
+      assert(expected === actual)
+    }
+  }
 //  describe("Challenge Nine") {
 //    it("Returns cat age from human age when passed an int") {
 //      val input = 3
