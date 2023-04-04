@@ -108,6 +108,10 @@ def containsCar(ls:List[String]): List[String] = {
     Returns - Int
    */
 
+  def catsAge(num:Int): Int = {
+    val humAge = num * 4
+    humAge
+  }
 
   /*
   10. Same question as #9, but this time you are given a Option[Int]
@@ -117,6 +121,8 @@ def containsCar(ls:List[String]): List[String] = {
     -Params - Option[Int]
     -Returns - Option[Int]
  */
+
+  def catsAgeOption()
 
   /*
   11. Write a function that takes in a list of ints, and return the minimum of the ints provided

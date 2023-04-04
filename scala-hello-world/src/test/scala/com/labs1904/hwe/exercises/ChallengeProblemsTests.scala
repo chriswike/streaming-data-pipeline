@@ -79,14 +79,14 @@ describe("Challenge One") {
       assert(expected === actual)
     }
   }
-//  describe("Challenge Nine") {
-//    it("Returns cat age from human age when passed an int") {
-//      val input = 3
-//      val expected = 12
-//      val actual = ChallengeProblems.catsAge(input)
-//      assert(expected === actual)
-//    }
-//  }
+  describe("Challenge Nine") {
+    it("Returns cat age from human age when passed an int") {
+      val input = 3
+      val expected = 12
+      val actual = ChallengeProblems.catsAge(input)
+      assert(expected === actual)
+    }
+  }
 //  describe("Challenge 10") {
 //    it("Returns the cat age from a human age when passed a Some") {
 //      val input: Option[Int] = Some(4)
