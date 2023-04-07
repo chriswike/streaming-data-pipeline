@@ -122,7 +122,10 @@ def containsCar(ls:List[String]): List[String] = {
     -Returns - Option[Int]
  */
 
-  def catsAgeOption()
+  def catsAgeOption(cAge: Option[Int]): Option[Int] = {
+    val hAge = cAge.map(x => x*4)
+      hAge
+  }
 
   /*
   11. Write a function that takes in a list of ints, and return the minimum of the ints provided
@@ -130,19 +133,19 @@ def containsCar(ls:List[String]): List[String] = {
   Returns - Int
    */
 
+  def minimum(param:List[Int]): Int = {
+    val mini = param.min
+    mini
+}
+
   /*
   12. Same as question 11, but this time you are given a list of Option[Ints], returns the minimum of the Ints provided.
   If no ints are provided, return None.
  */
 
-
-
-
-
-
-
-
-
-
+def minimumOption(max:List[Option[Int]]): Option[Int] = {
+  val min = max.minBy(x => x.getOrElse(0))
+  min
+}
 
 }
